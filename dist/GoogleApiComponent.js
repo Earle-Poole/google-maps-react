@@ -144,8 +144,8 @@
         }
 
         _createClass(Wrapper, [{
-          key: 'componentWillReceiveProps',
-          value: function componentWillReceiveProps(props) {
+          key: 'UNSAFE_componentWillReceiveProps',
+          value: function UNSAFE_componentWillReceiveProps(props) {
             // Do not update input if it's not dynamic
             if (typeof input !== 'function') {
               return;
